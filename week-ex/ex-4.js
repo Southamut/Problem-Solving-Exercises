@@ -89,6 +89,7 @@ const diceGame = (diceScore) => {
     }
   }
   console.log(totalScore);
+  return totalScore;
 };
 
 diceGame([5, 1, 3, 4, 1]);
